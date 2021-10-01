@@ -27,6 +27,12 @@ Support:
 
 # Usage
 
+Installation:
+
+```
+pip install tripay
+```
+
 Setup client:
 
 ```python

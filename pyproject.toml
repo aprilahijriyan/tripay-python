@@ -1,9 +1,21 @@
 [tool.poetry]
 name = "tripay"
-version = "0.1.0"
+version = "0.1.1"
 description = "Tripay Client For Python (UNOFFICIAL)"
 authors = ["aprilahijriyan <37798612+aprilahijriyan@users.noreply.github.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/aprilahijriyan/tripay-python"
+repository = "https://github.com/aprilahijriyan/tripay-python"
+keywords = ["tripay", "payment gateway"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Utilities"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"

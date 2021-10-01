@@ -30,11 +30,13 @@ Support:
 Setup client:
 
 ```python
+from tripay import TriPay
+
 tripay = TriPay(
     api_key="DEV-xxx",
     merchant_code="xxx",
     merchant_private_key="xxx",
-    debug=True
+    debug=True # sandbox mode
 )
 ```
 

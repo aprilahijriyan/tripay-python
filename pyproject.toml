@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tripay"
+version = "0.1.0"
+description = "Tripay Client For Python (UNOFFICIAL)"
+authors = ["aprilahijriyan <37798612+aprilahijriyan@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.28.0"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

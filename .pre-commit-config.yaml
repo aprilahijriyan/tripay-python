@@ -1,0 +1,35 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.4.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+
+-   repo: https://github.com/myint/autoflake
+    rev: v1.4
+    hooks:
+    -   id: autoflake
+        name: autoflake
+        exclude: ^templates/
+        args: ["-r", "-i", "--remove-all-unused-imports", "--remove-unused-variables"]
+
+-   repo: https://github.com/pycqa/isort
+    rev: 5.8.0
+    hooks:
+    -   id: isort
+        name: isort (python)
+
+    -   id: isort
+        name: isort (cython)
+        types: [cython]
+
+    -   id: isort
+        name: isort (pyi)
+        types: [pyi]
+
+-   repo: https://github.com/psf/black
+    rev: 21.4b2
+    hooks:
+    -   id: black
+        args: ["-v"]
